@@ -1,0 +1,148 @@
+@font-face {
+    font-family: 'hanna';
+    src: url('fonts/BMHANNA_11yrs_eot.eot?#iefix')format('embedded-opentype'),
+    url('fonts/BMHANNA_11yrs_otf.otf')format('opentype'),
+    url('fonts/BMHANNA_11yrs_woff.woff')format('woff'),
+    url('fonts/BMHANNA_11yrs_svg.svg#hanna')format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+    font-family: 'hanna';
+    width:100%;
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none !important;
+}
+.container-fluid {
+    padding: 0;
+}
+
+.pictured-background {
+    width: 100%;    
+    align-items: center;
+}
+
+.empty-container {
+    height: 100px;
+}
+
+.mini-section-1 {
+    background-color: #a8dae0;
+    text-align: center;
+    font-size: 1.5em;
+    color: white !important;
+}
+
+.mini-section-2 {
+    background-color: white;
+    text-align: center;
+    font-size: 1.5em;
+    color: black !important;
+}
+
+.mini-section-3 {
+    background-color: white;
+    text-align: center;
+    font-size: 1.5em;
+    color: #a8dae0 !important;
+}
+
+    header .jumbotron {
+        width: 100%;
+        height: 375px;
+        margin: auto;
+        text-align: center;
+        color: white;
+        background-color: transparent;
+        border: solid white 6px;
+    }
+    header .sub-text-box {
+            width: 100%;
+            text-align: center;
+            color: white;
+            font-size: 1.5em;
+    }
+
+
+
+.round {
+        width: 150px;
+        height: 150px;
+        margin: auto;
+        border-radius: 50%;
+        background-color: #a8dae0;
+
+        }
+        .round p {
+                text-align: center;
+                font-size: 2em;
+                color: white;
+            }
+        .triangle {
+            width: 150px;
+            height: 150px;
+            margin: auto;
+            background-image: url('../resources/triangle.png');
+            background-size: 100% 100%;
+        }
+            .triangle p {
+                text-align: center;
+                font-size: 2em;
+                color: white;
+            }
+#intro {
+    background-color: #a8dae0;
+}
+    #intro .container {
+        padding: 0;
+        color: white;
+        text-align: center;
+    }
+
+    .picture-of-us-1 {
+        display: block;
+        width: 360px;
+        height: 270px;
+        margin: auto;
+        border: solid white 10px;
+    }
+    .picture-of-us-2 {
+        display: block;
+        width: 360px;
+        height: 270px;
+        margin: auto;
+        border: solid white 10px;
+    }
+    .picture-of-us-3 {
+        display: block;
+        width: 360px;
+        height: 270px;
+        margin: auto;
+        border: solid white 10px;
+    }
+    .picture-of-us-4 {
+        display: block;
+        width: 360px;
+        height: 270px;
+        margin: auto;
+        border: solid white 10px;
+    }
+#apply {
+    background-color: #a8dae0;
+}
+    #apply .container {
+        padding: 0;
+        color: white;
+        text-align: center;
+    }
+    button {
+            width: 150px;
+            height: 70px;
+            border: none;
+            background-color: white;
+            color: #a8dae0;
+            font-size: 1.5em;
+        }
